@@ -1,7 +1,9 @@
+
+
 function jugar() {
-    var pipati = ["piedra", "papel", "tijera"];
+    var miJuego = ["piedra", "papel", "tijera"];
     var eleccionUsuario = prompt("Seleccionar piedra, papel o tijera:").toLowerCase();
-    var eleccionMaquina = jugar[Math.floor(Math.random() * 3)];
+    var eleccionMaquina = miJuego[Math.floor(Math.random() * 3)];
     
     alert("La computadora eligió: " + eleccionMaquina);
     
